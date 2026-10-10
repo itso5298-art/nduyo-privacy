@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy – Nduyo Dzokudira</title>
-  <meta name="description" content="Privacy Policy for the Nduyo Dzokudira UCCZ Hymn & Worship App." />
+  <title>Privacy Policy – Nduyo Dzokudira (UCCZ)</title>
+  <meta name="description" content="Privacy Policy for Nduyo Dzokudira - United Church of Christ in Zimbabwe (UCCZ) Hymn & Worship App." />
   <style>
     *,
     *::before,
@@ -16,146 +16,206 @@
     }
 
     :root {
-      --brand: #0A2540;
-      --accent: #1565C0;
-      --bg: #f5f7fa;
-      --surface: #ffffff;
-      --text: #1a1a2e;
-      --muted: #5a6a7e;
-      --border: #dde3ec;
-      --radius: 12px;
+      --brand: #0021AE;
+      --brand-dark: #00177A;
+      --accent: #0021AE;
+      --accent-light: #1565C0;
+      --bg: #E7EDF8;
+      --surface: #FFFFFF;
+      --text: #0E1526;
+      --text-muted: #4A5A7A;
+      --border: #CDD6EE;
+      --pill-bg: #D6E0F4;
+      --radius: 14px;
     }
 
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.75;
       padding: 0 1rem 4rem;
     }
 
-    /* ── Header ── */
+    /* ── Header with UCCZ Royal Blue ── */
     header {
-      background: linear-gradient(135deg, var(--brand) 0%, #1565C0 100%);
-      color: #fff;
-      padding: 3rem 1rem 2.5rem;
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+      color: #FFFFFF;
+      padding: 3.5rem 1.5rem 3rem;
       text-align: center;
-      margin-bottom: 2.5rem;
+      margin: -0 1rem 2rem;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 33, 174, 0.18);
     }
 
     header .logo {
-      width: 72px;
-      height: 72px;
-      border-radius: 18px;
-      background: rgba(255, 255, 255, .15);
+      width: 76px;
+      height: 76px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       margin-bottom: 1rem;
     }
 
     header h1 {
-      font-size: 1.9rem;
-      font-weight: 700;
-      letter-spacing: -.5px;
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.3rem;
     }
 
     header p {
-      opacity: .8;
-      margin-top: .35rem;
-      font-size: .95rem;
+      opacity: 0.92;
+      font-size: 1.05rem;
+      font-weight: 500;
+      max-width: 600px;
+      margin: 0 auto;
     }
 
-    /* ── Card ── */
+    /* ── Contributor Announcement Banner ── */
+    .contributors-banner {
+      max-width: 800px;
+      margin: -1.2rem auto 1.8rem;
+      background: #FFFFFF;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.4rem;
+      box-shadow: 0 4px 16px rgba(0, 33, 174, 0.08);
+      text-align: center;
+    }
+
+    .contributors-intro {
+      font-size: 0.98rem;
+      color: var(--text);
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+    }
+
+    .contributors-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .contributor-chip {
+      display: inline-flex;
+      align-items: center;
+      background: var(--pill-bg);
+      color: var(--brand);
+      font-weight: 700;
+      font-size: 0.92rem;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      transition: all 0.2s ease;
+    }
+
+    .contributor-chip:hover {
+      background: var(--brand);
+      color: #FFFFFF;
+      border-color: var(--brand);
+    }
+
+    /* ── Content Card ── */
     .card {
-      max-width: 780px;
+      max-width: 800px;
       margin: 0 auto 1.5rem;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 2rem 2.25rem;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+      box-shadow: 0 2px 12px rgba(0, 33, 174, 0.04);
     }
 
     /* ── Typography ── */
     h2 {
-      font-size: 1.05rem;
+      font-size: 1.12rem;
       font-weight: 700;
       color: var(--brand);
-      margin-bottom: .6rem;
+      margin-bottom: 0.65rem;
       display: flex;
       align-items: center;
-      gap: .5rem;
+      gap: 0.55rem;
     }
 
     h2 .icon {
-      font-size: 1.15rem;
+      font-size: 1.25rem;
     }
 
     p,
     li {
-      font-size: .95rem;
-      color: #2d3748;
+      font-size: 0.96rem;
+      color: var(--text);
+      line-height: 1.75;
     }
 
     ul {
-      padding-left: 1.4rem;
-      margin-top: .4rem;
+      padding-left: 1.5rem;
+      margin-top: 0.5rem;
     }
 
     li {
-      margin-bottom: .3rem;
+      margin-bottom: 0.35rem;
     }
 
     .muted {
-      color: var(--muted);
-      font-size: .88rem;
-      margin-top: .5rem;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      margin-top: 0.6rem;
     }
 
     /* ── Effective date badge ── */
     .badge {
       display: inline-block;
-      background: #e8f0fe;
-      color: var(--accent);
-      font-size: .8rem;
-      font-weight: 600;
-      padding: .25rem .75rem;
+      background: var(--pill-bg);
+      color: var(--brand);
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 0.3rem 0.85rem;
       border-radius: 999px;
       margin-bottom: 1.25rem;
+      border: 1px solid var(--border);
     }
 
     /* ── Contact box ── */
     .contact-box {
-      background: #f0f4ff;
-      border: 1px solid #c7d8ff;
+      background: #F4F7FD;
+      border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 1.25rem 1.5rem;
-      margin-top: .6rem;
+      margin-top: 0.75rem;
     }
 
     .contact-box a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .contact-box a:hover {
+      color: var(--brand);
       text-decoration: underline;
+      font-weight: 600;
     }
 
     /* ── Footer ── */
     footer {
       text-align: center;
-      color: var(--muted);
-      font-size: .82rem;
+      color: var(--text-muted);
+      font-size: 0.86rem;
       margin-top: 3rem;
+      line-height: 1.7;
     }
 
     footer a {
-      color: var(--accent);
+      color: var(--brand);
       text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -163,20 +223,33 @@
 <body>
 
   <header>
-    <div class="logo">🎵</div>
+    <div class="logo">⛪</div>
     <h1>Nduyo Dzokudira</h1>
-    <p>UCCZ Hymn &amp; Worship App &mdash; Privacy Policy</p>
+    <p>United Church of Christ in Zimbabwe (UCCZ) Hymn &amp; Worship App &mdash; Privacy Policy</p>
   </header>
+
+  <!-- Prominent Contributor Credits Banner -->
+  <div class="contributors-banner">
+    <div class="contributors-intro">
+      This version is brought to you by
+    </div>
+    <div class="contributors-list">
+      <a class="contributor-chip" href="mailto:khosag@hotmail.com">Ganyani Khosa</a>
+      <a class="contributor-chip" href="mailto:lenzite@gmail.com">Leornard Mzite</a>
+      <a class="contributor-chip" href="https://github.com/itso5298-art" target="_blank" rel="noopener noreferrer">Mallon Itai</a>
+      <a class="contributor-chip" href="https://github.com/KingGodo" target="_blank" rel="noopener noreferrer">King Godo</a>
+    </div>
+  </div>
 
   <main>
 
     <!-- Intro card -->
     <div class="card">
-      <span class="badge">Effective Date: October 11, 2025</span>
+      <span class="badge">Effective Date: October 11, 2026</span>
       <p>
         This Privacy Policy describes how <strong>Nduyo Dzokudira</strong> ("the App"),
-        developed by <strong>Mallonitai's Team</strong>, handles information when you use
-        our mobile application. We are committed to protecting your privacy.
+        brought to you by <strong>Ganyani Khosa</strong>, <strong>Leornard Mzite</strong>, <strong>Mallon Itai</strong>, and <strong>King Godo</strong>, handles information when you use
+        our mobile application. We are deeply committed to protecting your privacy and providing a peaceful, ad-free worship experience for the UCCZ community.
       </p>
     </div>
 
@@ -186,13 +259,13 @@
       <p>
         Nduyo Dzokudira is designed to work <strong>fully offline</strong> and does
         <strong>not collect, transmit, or share any personal information</strong> with
-        us or any third party. Specifically:
+        us, the church, or any third party. Specifically:
       </p>
       <ul>
         <li>We do <strong>not</strong> require account creation or login.</li>
-        <li>We do <strong>not</strong> collect your name, email, or contact details.</li>
-        <li>We do <strong>not</strong> track your location.</li>
-        <li>We do <strong>not</strong> use advertising SDKs or analytics services.</li>
+        <li>We do <strong>not</strong> collect your name, phone number, email address, or contact details.</li>
+        <li>We do <strong>not</strong> track your GPS location.</li>
+        <li>We do <strong>not</strong> use advertising SDKs, tracking pixels, or third-party analytics services.</li>
       </ul>
     </div>
 
@@ -200,16 +273,16 @@
     <div class="card">
       <h2><span class="icon">💾</span> 2. Data Stored Locally on Your Device</h2>
       <p>
-        The App stores the following data <strong>only on your device</strong> using
-        AsyncStorage (local storage). This data never leaves your device:
+        The App stores user data <strong>strictly on your device</strong> using
+        local storage (AsyncStorage and local device files). This data never leaves your device:
       </p>
       <ul>
-        <li><strong>Favourite hymns</strong> — hymns you mark as favourites.</li>
-        <li><strong>Personal notes</strong> — notes you attach to hymns.</li>
-        <li><strong>App preferences</strong> — settings and UI state.</li>
-        <li><strong>Audio recordings</strong> — practice recordings saved locally.</li>
+        <li><strong>Favourite hymns</strong> &mdash; hymns and choruses you bookmark.</li>
+        <li><strong>Personal notes &amp; service orders</strong> &mdash; notes and church programs you write.</li>
+        <li><strong>App preferences</strong> &mdash; font size adjustments and theme state.</li>
+        <li><strong>Practice recordings</strong> &mdash; audio recordings made during choir or personal hymn practice.</li>
       </ul>
-      <p class="muted">You can clear all locally stored data at any time by uninstalling the App.</p>
+      <p class="muted">You can reset or clear all locally stored data at any time by clearing the app data or uninstalling the App.</p>
     </div>
 
     <!-- 3. Microphone -->
@@ -217,15 +290,15 @@
       <h2><span class="icon">🎙️</span> 3. Microphone Permission</h2>
       <p>
         The App requests access to your device's <strong>microphone</strong> solely to
-        enable the <em>hymn practice recording</em> feature. Audio recordings are:
+        power the <em>Practice Studio</em> recording feature. Audio recordings are:
       </p>
       <ul>
-        <li>Saved <strong>only on your device</strong>.</li>
-        <li><strong>Never uploaded</strong> to any server.</li>
+        <li>Saved <strong>strictly on your local device storage</strong>.</li>
+        <li><strong>Never uploaded</strong> to any external server or cloud service.</li>
         <li><strong>Never shared</strong> with third parties.</li>
       </ul>
       <p class="muted">
-        You may deny microphone permission; all other features will continue to work normally.
+        You may deny microphone permission at any time; all hymn text, liturgical orders, and searching features will continue to work completely normally.
       </p>
     </div>
 
@@ -233,11 +306,10 @@
     <div class="card">
       <h2><span class="icon">🔗</span> 4. Third-Party Services</h2>
       <p>
-        The App is built with <strong>Expo / React Native</strong>. Expo may collect
-        limited, anonymous crash and diagnostic data to improve the platform.
+        The App is built with <strong>Expo &amp; React Native</strong>.
         Please review <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer"
-          style="color:#1565C0;">Expo's Privacy Policy</a>
-        for details. No other third-party SDKs that collect user data are included.
+          style="color: var(--brand); font-weight: 600;">Expo's Privacy Policy</a>
+        for platform details. No advertising networks, social media trackers, or third-party data brokers are included in this application.
       </p>
     </div>
 
@@ -245,9 +317,9 @@
     <div class="card">
       <h2><span class="icon">👧</span> 5. Children's Privacy</h2>
       <p>
-        The App is suitable for all ages and does not knowingly collect any personal
-        information from children or adults. Since no data is collected, there is no
-        risk of inadvertent collection from children under 13.
+        The App is suitable for all ages, including children, families, and church youth fellowships.
+        Because the App does not collect any personally identifiable information from any user, there is zero
+        risk of collection from children.
       </p>
     </div>
 
@@ -255,22 +327,24 @@
     <div class="card">
       <h2><span class="icon">🔄</span> 6. Changes to This Policy</h2>
       <p>
-        We may update this Privacy Policy from time to time. Any changes will be
-        reflected on this page with an updated effective date. Continued use of the
-        App after changes constitutes acceptance of the revised policy.
+        Any updates to this Privacy Policy will be reflected on this page with an updated effective date.
+        Continued use of the App constitutes acceptance of the policy.
       </p>
     </div>
 
-    <!-- 7. Contact -->
+    <!-- 7. Contributors & Contact -->
     <div class="card">
-      <h2><span class="icon">✉️</span> 7. Contact Us</h2>
-      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <h2><span class="icon">✉️</span> 7. Contributors &amp; Contact</h2>
+      <p>
+        Nduyo Dzokudira is a community project created for the United Church of Christ in Zimbabwe (UCCZ).
+        If you have questions or suggestions, please contact the development team:
+      </p>
       <div class="contact-box">
-        <strong></strong><br />
-        GitHub: <a href="https://github.com/itso5298-art" target="_blank"
-          rel="noopener noreferrer">@itso5298-art</a><br />
-        Project: <a href="https://github.com/itso5298-art/nduyo-" target="_blank"
-          rel="noopener noreferrer">github.com/itso5298-art/nduyo-</a>
+        <strong>Contributors:</strong> Ganyani Khosa, Leornard Mzite, Mallon Itai, and King Godo.<br /><br />
+        <strong>GitHub Repository:</strong> <a href="https://github.com/itso5298-art/nduyo-" target="_blank"
+          rel="noopener noreferrer">github.com/itso5298-art/nduyo-</a><br />
+        <strong>Lead Developer:</strong> <a href="https://github.com/itso5298-art" target="_blank"
+          rel="noopener noreferrer">@itso5298-art (Mallon Itai)</a>
       </div>
     </div>
 
@@ -278,8 +352,8 @@
 
   <footer>
     <p>
-      &copy; 2025 Mallonitai's Team &mdash; Built for the UCCZ community.<br />
-      <a href="https://github.com/itso5298-art/nduyo-">Nduyo Dzokudira on GitHub</a>
+      This version is brought to you by <strong>Ganyani Khosa</strong>, <strong>Leornard Mzite</strong>, <strong>Mallon Itai</strong>, and <strong>King Godo</strong>.<br />
+      &copy; 2026 Nduyo Dzokudira &bull; Built for the United Church of Christ in Zimbabwe (UCCZ) community.
     </p>
   </footer>
 
